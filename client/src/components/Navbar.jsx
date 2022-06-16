@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../images/cryptie-white.png";
-import {  AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 import { HiMenuAlt4 } from "react-icons/hi";
 
 const NavbarItem = ({ title, classProps }) => {
@@ -52,7 +52,7 @@ const Navbar = () => {
               <NavbarItem
                 key={item + index}
                 title={item}
-                classprops="my-2 text-lg"
+                classProps="my-2 text-lg pt-3"
               />
             ))}
           </ul>
