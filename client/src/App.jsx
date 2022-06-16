@@ -2,7 +2,7 @@ import { Navbar, Welcome } from "./components"
 
 const App= () => {
   return (
-    <div className="h-screen gradient-bg-welcome">
+    <div className="2xl:h-screen gradient-bg-welcome">
         <Navbar />
         <Welcome />
     </div>
