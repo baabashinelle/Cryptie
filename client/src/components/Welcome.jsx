@@ -35,7 +35,7 @@ const Welcome = () => {
 
   return (
     <div className="flex w-full justify-center items-center">
-      <div className="flex md:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
+      <div className="flex lg:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start flex-col md:mr-10 ">
           <h1 className="text-3xl sm:text-5xl text-white py-1 font-extrabold c-heading">
             Transfer Crypto <br /> easily on Cryptie
