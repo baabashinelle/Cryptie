@@ -48,7 +48,7 @@ const Welcome = () => {
             <button
               type="button"
               onClick={connectWallet}
-              className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-lg cursor-pointer hover:bg-[#2546bd]"
+              className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-lg cursor-pointer hover:bg-[#2546bd] md:w-96"
             >
               <p className="text-white text-base font-semibold">
                 Connect Wallet
@@ -57,7 +57,7 @@ const Welcome = () => {
           )}
         </div>
 
-        <div className="flex flex-col flex-1 items-center justify-start w-full md:mt-0 mt-10">
+        <div className="flex flex-col flex-1 lg:items-center justify-start w-full md:mt-0 mt-10">
           <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center white-glassmorphism">
             <Input
               placeholder="Address To"
