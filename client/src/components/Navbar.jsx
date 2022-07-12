@@ -10,21 +10,23 @@ const NavbarItem = ({ title, classProps }) => {
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center">
+    <nav className="w-full flex  justify-between items-center">
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="cryptie-logo" className="w-32 cursor-pointer" />
+        <img src={logo} alt="cryptie-logo" className="w-32 cursor-pointer ml-[15rem]" />
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Buy/Sell", "Grow", "Wallets", "Market"].map((item, index) => (
           <NavbarItem key={item + index} title={item} />
         ))}
-        <li className="bg-transparent border-[1px] py-2 px-7 mx-4 rounded-lg cursor-pointer hover:bg-[#2952e3] hover:border-[#2952e3]">
+      </ul>
+      <div className="flex list-none text-white">
+        <li className="bg-transparent border-[1px] py-2 px-7  rounded-lg cursor-pointer hover:bg-[#2952e3] hover:border-[#2952e3]">
           Sign Up
         </li>
-        <li className="bg-[#2952e3] border-[1px] border-[#2952e3] py-2 px-7 mx-4 rounded-lg cursor-pointer hover:bg-transparent hover:border-[#fff]">
-          Log In
+        <li className="bg-[#2952e3] border-[1px] border-[#2952e3] py-2 px-7 mx-1 rounded-lg cursor-pointer hover:bg-transparent hover:border-[#fff]">
+          Sign In
         </li>
-      </ul>
+      </div>
       <div className="flex relative">
         {!toggleMenu && (
           <HiMenuAlt4

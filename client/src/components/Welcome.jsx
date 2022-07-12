@@ -10,7 +10,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
     step="0.0001"
     value={value}
     onChange={(e) => handleChange(e, name)}
-    className="my-2 w-full rounded-sm p-3 outline-none text-white border-none text-sm white-glassmorphism inp-placeholder"
+    className="my-2 w-full rounded-lg p-3 outline-none text-white border-none text-sm white-glassmorphism inp-placeholder"
   ></input>
 );
 
@@ -92,7 +92,7 @@ const Welcome = () => {
               <button
                 type="button"
                 onClick={handleSubmit}
-                className="text-white w-full mt-2 border-[1px] p-2 border-[#fff] rounded-full cursor-pointer"
+                className="text-white w-full mt-2 border-[1px] p-2 border-[#fff] rounded-lg cursor-pointer"
               >
                 Send
               </button>
