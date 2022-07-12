@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex  justify-between items-center">
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="cryptie-logo" className="w-32 cursor-pointer ml-[15rem]" />
+        <img src={logo} alt="cryptie-logo" className="w-32 cursor-pointer ml-[8rem]" />
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Buy/Sell", "Grow", "Wallets", "Market"].map((item, index) => (
