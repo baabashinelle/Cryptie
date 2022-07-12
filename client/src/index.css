@@ -14,15 +14,11 @@ body {
 }
 
 .gradient-bg-welcome {
-background-color:hsla(225,39%,30%,1);
-background-image:
-radial-gradient(at 69% 82%, rgb(16, 15, 15) 0px, transparent 50%),
-radial-gradient(at 37% 52%, hsla(324,81%,65%,1) 0px, transparent 50%),
-radial-gradient(at 69% 40%, hsla(0,87%,63%,1) 0px, transparent 50%);
+background-color:rgb(37, 51, 92);
 }
 
 .inp-placeholder::placeholder{
-  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (min-width: 1299px) {

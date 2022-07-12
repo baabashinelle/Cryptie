@@ -48,7 +48,7 @@ const Welcome = () => {
             <button
               type="button"
               onClick={connectWallet}
-              className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-lg cursor-pointer hover:bg-[#2546bd] md:w-96"
+              className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-lg cursor-pointer hover:bg-[#325efb] md:w-96"
             >
               <p className="text-white text-base font-semibold">
                 Connect Wallet
@@ -64,7 +64,6 @@ const Welcome = () => {
               name="addressTo"
               type="text"
               handleChange={handleChange}
-              className="inp-placeholder"
             />
             <Input
               placeholder="Amount (ETH)"
@@ -92,7 +91,7 @@ const Welcome = () => {
               <button
                 type="button"
                 onClick={handleSubmit}
-                className="text-white w-full mt-2 border-[1px] p-2 border-[#fff] rounded-lg cursor-pointer"
+                className="text-white w-full mt-2 border-[1px] p-2 border-[#fff] hover:bg-[#ffffff19] rounded-lg cursor-pointer"
               >
                 Send
               </button>
