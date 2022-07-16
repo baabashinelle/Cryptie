@@ -14,11 +14,11 @@ body {
 }
 
 .gradient-bg-welcome {
-background-color:rgb(37, 51, 92);
+background-color:#25335c;
 }
 
 .inp-placeholder::placeholder{
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff99;
 }
 
 @media screen and (min-width: 1299px) {
