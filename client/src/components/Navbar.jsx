@@ -24,7 +24,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="list-none text-white md:flex hidden">
-        <li className="bg-[#2952e3] border-[1px] border-[#2952e3] py-2 px-7 mx-1 rounded-lg cursor-pointer hover:bg-[#325efb]">
+        <li className="bg-[#325efb] border-[1px] border-[#2952e3] py-2 px-7 mx-1 rounded-lg cursor-pointer hover:bg-[#2952e3]">
           Sign In
         </li>
         <li className="bg-transparent border-[1px] py-2 px-7  rounded-lg cursor-pointer hover:bg-[#ffffff19]">
